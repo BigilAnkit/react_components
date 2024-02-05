@@ -7,6 +7,8 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { blog } from './Data/blog';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -24,6 +26,8 @@ function App() {
       <Header headerInfo={headerInfo}>
         {/* child props */}
         <h1>Welcome to Ankit Full Stack journiy</h1>
+        <FontAwesomeIcon icon={faPhone}/>
+
       </Header>
       <Footer/>
       <div className='text-danger'>
